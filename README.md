@@ -1,6 +1,6 @@
 # Bootcamp 
 
-Neste desafio, fomos desafiados a desenvolver nossa capacidade de abstração com um problema real e implementar as evoluções que achamos necessárias, como métodos e classes. Eu implementei as classes Projeto, Hacking e Certificado, que acredito ser uma acrescimo de valor a aplicação.
+Fomos desafiados a desenvolver nossa capacidade de abstração com um problema real e implementar as evoluções que achamos necessárias, como métodos e classes. Eu implementei as classes Projeto, Hacking e Certificado, que acredito ser uma acrescimo de valor a aplicação.
 
 ## Descrição do Projeto
 
