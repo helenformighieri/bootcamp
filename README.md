@@ -1,3 +1,60 @@
+# Bootcamp 
+
+Neste desafio, fomos desafiados a desenvolver nossa capacidade de abstração com um problema real e implementar as evoluções que achamos necessárias, como métodos e classes. Eu implementei as classes Projeto, Hacking e Certificado, que acredito ser uma acrescimo de valor a aplicação.
+
+## Descrição do Projeto
+
+Este projeto simula um bootcamp para desenvolvedores, onde os participantes podem se inscrever em cursos, mentorias, projetos e atividades de hacking para ganhar experiência (XP) e obter certificados ao concluir o bootcamp.
+
+## Estrutura do Projeto
+
+O projeto é composto pelas seguintes classes principais:
+
+- `Conteudo`: Classe abstrata que representa um conteúdo do bootcamp.
+- `Curso`: Representa um curso com uma carga horária específica.
+- `Mentoria`: Representa uma mentoria com uma data específica.
+- `Projeto`: Representa um projeto com um nível de dificuldade.
+- `Hacking`: Representa uma atividade de hacking com um nível de dificuldade.
+- `Certificado`: Representa um certificado emitido após a conclusão do bootcamp.
+- `Dev`: Representa um desenvolvedor inscrito no bootcamp.
+- `Bootcamp`: Representa o bootcamp com seus conteúdos e desenvolvedores inscritos.
+
+## Desafio
+
+1. **Abstrair o domínio Bootcamp e modelar seus atributos e métodos.**
+2. **Criar as classes e relacioná-las.**
+3. **Modelar as classes criando seus atributos e métodos.**
+4. **Utilizar ferramentas do paradigma de orientação a objetos (POO) para tornar o código mais legível e de fácil manutenção: abstração, encapsulamento, herança e polimorfismo.**
+5. **Transformar as classes criadas e relacionadas em objetos.**
+
+## Configuração e Execução
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/seu-usuario/bootcamp-java-developer.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd bootcamp-java-developer
+    ```
+3. Importar o projeto na IDE:
+   - Intellij IDEA
+      - Abra o IntelliJ IDEA.
+      - Clique em `Open or Import`.
+      - Selecione a pasta do projeto e clique em `Open`.
+      - Aguarde a indexação do projeto e as dependências serem baixadas.
+   - Eclipse
+        - Abra o Eclipse.
+        - Clique em `File` > `Open Projects from File System...`.
+        - Selecione a pasta do projeto e clique em `Finish`.
+        - Aguarde a indexação do projeto e as dependências serem baixadas.
+4. Executar o projeto:
+    - Localize a classe`Main` e a execute para testar a aplicação.
+   
+## Exemplo de Uso
+
+```java
 import br.com.helenformighieri.dominio.*;
 
 import java.time.LocalDate;
@@ -101,3 +158,6 @@ public class Main {
         return dev;
     }
 }
+```
+
+### Desenvolvido por Helen Formighieri
